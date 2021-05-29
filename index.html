@@ -12,19 +12,38 @@
     <title>Watcha Cravin?</title>
 </head>
 <body>
-   
-    <button id="spin">Spin</button>
-    <span class="arrow"></span>
-    <div class="container"  id="spinner">
-        <div class="one">1</div>
-        <div class="two">2</div>
-        <div class="three">3</div>
-        <div class="four">4</div>
-        <div class="five">5</div>
-        <div class="six">6</div>
-        <div class="seven">7</div>
-        <div class="eight">8</div>
+   <div id="spindiv">
+        <button id="spin">Spin</button>
+        <span class="arrow"></span>
+        <div class="container newcont"  id="spinner">
+            <div class="one" id="one">MCDONALD'S</div>
+            <div class="two" id="two">STARBUCKS</div>
+            <div class="three">SUBWAY</div>
+            <div class="four">TACO BELL</div>
+            <div class="five">CHICK-FIL-A</div>
+            <div class="six">WENDY'S</div>
+            <div class="seven">BURGER KING</div>
+            <div class="eight">DUNKIN'</div>
+        </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-12 text-justify text-center">
+                <h1 class="display-3">Watcha Cravin?</h1>
+            </div> -->
+        </div>
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <label for="foodTextArea" class="display-4 text-justify text-center">What Are You Craving?</label>
+                        <textarea type="text" class="form-control" name="textfood" form="foodform" id="foodTextArea"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
